@@ -40,6 +40,9 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 - Data Source: Social Network Ads dataset
 - Libraries: Utilizes `pandas`, `scikit-learn`, `matplotlib`, and `seaborn` for data processing, model training, and visualization.
+# Feature Scaling: Includes methods for both standardization and normalization to understand their impact on model performance.
+-Standardization: Adjusts the data to have a mean of zero and a standard deviation of one, useful for algorithms like Logistic Regression.
+-Normalization: Scales the data to a range of [0, 1], often beneficial for distance-based algorithms like k-NN.
 
 ---
 
